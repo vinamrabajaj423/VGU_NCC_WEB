@@ -2,10 +2,10 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-green-800 text-white shadow-lg">
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+      <header className="bg-[url('/photos/vgu new logo w.png')] bg-cover bg-center text-white shadow-lg bg-red-900 bg-blend-overlay">
+        <div className="container mx-auto px-4 py-4 flex justify-between items-center bg-black bg-opacity-50">
           <div className="flex items-center space-x-4">
             <img src="/photos/329-3290065_ncc-national-cadet-corps-removebg-preview.png" alt="NCC Logo" className="w-20 h-20" />
             <div>
@@ -14,22 +14,22 @@ function App() {
             </div>
           </div>
           <nav className="hidden md:flex space-x-6">
-            <a href="#about" className="hover:text-green-200 transition">About</a>
-            <a href="#activities" className="hover:text-green-200 transition">Activities</a>
-            <a href="#contact" className="hover:text-green-200 transition">Contact</a>
+            <a href="#about" className="hover:text-red-200 transition">About</a>
+            <a href="#activities" className="hover:text-red-200 transition">Activities</a>
+            <a href="#contact" className="hover:text-red-200 transition">Contact</a>
           </nav>
           <img src="/photos/vgu new logo w.png" alt="VGU Logo" className="w-32 h-32" />
         </div>
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-green-700 to-green-900 text-white py-20">
+      <section className="bg-gradient-to-r from-red-800 to-red-900 text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">Unity • Discipline • Service</h2>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-            Join the National Cadet Corps at Veer Gatha University and be part of India's premier youth development movement.
+            Join the National Cadet Corps at Vivekananda Global University and be part of India's premier youth development movement.
           </p>
-          <button className="bg-white text-green-800 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+          <button className="bg-white text-red-800 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
             Join NCC
           </button>
         </div>
@@ -41,12 +41,12 @@ function App() {
           <h3 className="text-3xl font-bold text-center mb-12 text-gray-800">About VGU NCC Coy</h3>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <h4 className="text-2xl font-semibold mb-4 text-green-800">Our Mission</h4>
+              <h4 className="text-2xl font-semibold mb-4 text-red-800">Our Mission</h4>
               <p className="text-gray-600 mb-6">
                 The National Cadet Corps (NCC) aims to develop character, comradeship, discipline, leadership, secular outlook,
                 spirit of adventure and ideals of selfless service amongst the youth of the country.
               </p>
-              <h4 className="text-2xl font-semibold mb-4 text-green-800">What We Offer</h4>
+              <h4 className="text-2xl font-semibold mb-4 text-red-800">What We Offer</h4>
               <ul className="text-gray-600 space-y-2">
                 <li>• Leadership training and development</li>
                 <li>• Adventure activities and camps</li>
@@ -68,19 +68,19 @@ function App() {
           <h3 className="text-3xl font-bold text-center mb-12 text-gray-800">Our Activities</h3>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h4 className="text-xl font-semibold mb-4 text-green-800">Drill & Parade</h4>
+              <h4 className="text-xl font-semibold mb-4 text-red-800">Drill & Parade</h4>
               <p className="text-gray-600">
                 Learn precision marching, flag ceremonies, and military discipline through regular drill practices.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h4 className="text-xl font-semibold mb-4 text-green-800">Adventure Training</h4>
+              <h4 className="text-xl font-semibold mb-4 text-red-800">Adventure Training</h4>
               <p className="text-gray-600">
                 Participate in trekking, mountaineering, para-sailing, and other adventure activities to build courage and teamwork.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h4 className="text-xl font-semibold mb-4 text-green-800">Community Service</h4>
+              <h4 className="text-xl font-semibold mb-4 text-red-800">Community Service</h4>
               <p className="text-gray-600">
                 Engage in social service activities including blood donation camps, tree plantation, and disaster relief operations.
               </p>
@@ -96,7 +96,7 @@ function App() {
           <div className="max-w-2xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-semibold mb-4 text-green-800">Get In Touch</h4>
+                <h4 className="text-xl font-semibold mb-4 text-red-800">Get In Touch</h4>
                 <div className="space-y-3 text-gray-600">
                   <p><strong>Address:</strong> Vivekananda Global University, NCC Coy Office</p>
                   <p><strong>Email:</strong> ncc@vgu.edu.in</p>
@@ -106,7 +106,7 @@ function App() {
                 </div>
               </div>
               <div>
-                <h4 className="text-xl font-semibold mb-4 text-green-800">Joining Information</h4>
+                <h4 className="text-xl font-semibold mb-4 text-red-800">Joining Information</h4>
                 <div className="space-y-3 text-gray-600">
                   <p><strong>Eligibility:</strong> Students of Vivekananda Global University</p>
                   <p><strong>Wings:</strong> Army Wing and Air Wing</p>
@@ -121,10 +121,12 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-green-800 text-white py-8">
-        <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2025 VGU NCC Coy. All rights reserved.</p>
-          <p className="mt-2">Proud to serve the nation through character building and service.</p>
+      <footer className="bg-[url('/photos/vgu new logo w.png')] bg-cover bg-center text-white py-8 bg-red-900 bg-blend-overlay">
+        <div className="bg-black bg-opacity-50 py-8">
+          <div className="container mx-auto px-4 text-center">
+            <p>&copy; 2025 VGU NCC Coy. All rights reserved.</p>
+            <p className="mt-2">Proud to serve the nation through character building and service.</p>
+          </div>
         </div>
       </footer>
     </div>
